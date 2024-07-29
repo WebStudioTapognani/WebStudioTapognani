@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn-Up</title>
+		<style>
+		
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 0 5vw; 
+			text-align: center; /* Center the contents of the container */
+		}
+		
+		.header {	
+			text-align: center;
+			padding: 40px 20px;
+		}
+		
+		.logo-banner {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 0px;
+		}
+		
+		.logo {
+			max-width: 100%;
+			height: auto;
+		}
+		
+		h1, h2, p {
+			margin: 20px 10 px;
+			text-align: center;
+		}
+		
+		.section {
+			padding: 0 5vw; 
+			text-align: center;
+		}
+	
+		 body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+		
+		.video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            background: #FAF7EF;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+		
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            font-size: 16px;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            outline: none;
+            color: #fff;
+            background-color: #222;
+            border: none;
+            border-radius: 30px;
+            margin: 20px auto;
+            transition: background-color 0.3s ease;
+            display: block; /* Make it a block element */
+            max-width: 300px; /* Optional: limit the max width */
+			align-self: flex-end;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+     
+		.btn:hover {
+			background-color: #0056b3;
+		}
+		
+		.section {
+			padding: 40px 2px;
+			text-align: center;
+		}
+		
+		.column img {
+			max-width: 100%;
+			height: auto;
+			margin-bottom: 10px; /* Spazio tra l'immagine e il testo */
+		}
+
+		.columns {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			margin: 0 auto; /* Centrare le colonne */
+			max-width: 1200px; /* Larghezza massima delle colonne */
+		}
+
+		.column {
+			flex: 1;
+			margin: 10px;
+			text-align: center;
+			max-width: 400px; /* Larghezza massima delle singole colonne */
+			flex-direction: column;
+		}
+
+		@media (min-width: 768px) {
+			.column {
+			max-width: calc(100% - 20px); /* Larghezza massima delle singole colonne su schermi più grandi, considerando il margine */
+			}
+		}
+
+		.footer {
+			background-color: #222;
+			color: #fff;
+			padding: 40px 0px;
+			text-align: center;
+		}
+		
+		.footer a {
+			color: #007bff;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+		
+		.footer a:hover {
+			text-decoration: underline;
+		}
+		
+		@media (max-width: 768px) {
+			.columns {
+			flex-direction: column;
+			align-items: center;
+			}
+		}
+		
+		</style>
+	
+</head>
+<html lang="it">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Website with Fullscreen Logo Header</title>
+		<style>
+	   	.header {
+				position: relative;
+				height: 300px; /* Altezza dell'header, puoi cambiarla secondo necessità */
+				background-image: url('images1/logo.jpg');
+				background-size: cover; /* Copre l'intero spazio dell'header mantenendo le proporzioni */
+				background-repeat: no-repeat;
+				background-position: center;
+				z-index: -1;
+			}
+		</style>
+	</head>
+	
+<body>
+    <div class="header"></div>
+	
+		<div class="section" style="background-color: #FAF7EF; padding-bottom:0px">
+		<div class="custom-column">
+        <h1>Il nostro Servizio</h1>
+        <p style="padding:20px" >Learn-UP è un servizio web per enti di formazione che desiderano una soluzione su misura per la distribuzione dei loro video corsi con un focus sulla sicurezza dei contenuti e la semplicità operativa.</p>
+		<img src="images1/1.jpg" alt="Funzione 1">	
+		</div>
+		
+		<div class="section" style="background-color: #C9DEE9;">
+			<h2>Come Funziona</h2>
+			<div class="columns">
+				<div class="column">
+					<img src="images1/funziona1.jpg" alt="Funzione 1">
+					<p>Sviluppiamo ogni sito in base alle tue esigenze educative, adattando la nostra struttura modulare per i tuoi corsi. </p>
+				</div>
+				<div class="column">
+					<img src="images1/funziona2.jpg" alt="Funzione 2">
+					<p>Ogni sito può contenere una o più sezioni con una panoramica o l'introduzione della tua unità didattica seguita dai tasti di collegamento ai video e ai quiz del corso. </p>
+				</div>
+				<div class="column">
+					<img src="images1/funziona3.jpg" alt="Funzione 2">
+					<p>Inoltre possiamo arricchire la tua offerta formativa aggiungendo materiali scaricabili a seconda delle necessità dei tuoi studenti.</p>
+				</div>
+			</div>
+	
+		</div>
+       
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Consulenza Tecnica</title>
+			<style>
+				.custom-section {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					text-align: center;
+					padding: 20px;
+					width: 100%;
+					box-sizing: border-box;
+				}
+
+				.custom-column {
+					max-width: 800px;
+					margin: 0 auto;
+					text-align: center;
+				}
+
+				.custom-img {
+					max-width: 80%;
+					height: auto;
+					margin-top: 20px;
+				}
+			
+				@media (max-width: 768px) {
+				.contact-container {
+					flex-direction: column;
+					align-items: center;
+				}
+				.contact-buttons {
+					margin-top: 20px;
+				}
+			}
+		</style>
+		</head>
+		<body>
+			<div class="custom-section" style="background-color: #FAF7EF;">
+				<div class="custom-column">
+					<h2>Consulenza Tecnica</h2>
+					<p>Contattaci per scoprire come Learn-UP può arricchire la tua offerta formativa e migliorare l'esperienza dei tuoi studenti.</p>
+					<img src="images/consulenza-tecnica.jpg" alt="Consulenza Tecnica" class="custom-img" style="max-width:100%">
+					<a href="Prenotazioni.html" class="btn">PRENOTA UNA PROVA GRATUITA</a>
+				</div>
+			</div>
+		</body>
+		</html>
+
+        <div class="section" style="background-color: #C9DEE9;">
+            <h2>Perche Provarlo</h2>
+            <div class="columns">
+                <div class="column">
+					<h3>Creazione del sito:</h3>
+                    <img src="images1/perche1.jpg" alt="Prova 1">
+                    <p>Progettiamo un sito personalizzato per i tuoi corsi con: spiegazioni, immagini, materiali scaricabili e collegamenti a video e quiz riservati agli iscritti.</p>
+                </div>
+                <div class="column">
+					<h3>Facilità d'uso:</h3>
+                    <img src="images1/perche2.jpg" alt="Prova 2">
+                    <p>I nostri siti sono progettati per aiutare i tuoi studenti che si tratti di ripassare o recuperare una lezione a cui erano assenti non sarà più un problema se i tuoi contenuti saranno facilmente accessibili online.</p>
+                </div>
+                <div class="column">
+					<h3>Studio individuale:</h3>
+                    <img src="images1/perche3.jpg" alt="Prova 3">
+                    <p>Learn-Up può diventare una risorsa importante per la preparazione individuale dei tuoi studenti permettendo alla tua azienda di contenere i costi  riducendo le ore insegnamento in presenza.</p>
+                </div>
+            </div>
+        </div>
+		 <div class="section" style="background-color: #C9DEE9;">
+            <div class="columns">
+                <div class="column">
+					<h3>Protezione dei contenuti:</h3>
+                    <img src="images1/perche4.jpg" alt="Prova 4">
+                    <p>Il nostro sistema di sicurezza sfrutta l’infrastruttura di Google per identificare l’account di navigazione degli utenti e fornire accesso ai tuoi contenuti riservati solo agli studenti paganti.</p>
+                </div>
+				<div class="column">
+					<h3>Gestione dei Contenuti:</h3>
+                    <img src="images1/perche5.jpg" alt="Prova 4">
+                    <p>La nostra struttura modulare ci permette di organizzare facilmente i tuoi contenuti con un certo grado di flessibilità. Questo sistema ti offre la libertà di strutturare il tuo corso come meglio desideri.</p>
+                </div>
+				<div class="column">
+				<h3>Zero cookie, zero problemi:</h3>
+                    <img src="images1/perche6.jpg" alt="Prova 4">
+                    <p>Non trattando dati personali e non utilizzando cookie, Learn-UP elimina complicazioni legate alla gestione dei consensi e alle normative sui cookie.</p>
+                </div>
+            </div>
+        </div>
+		
+		<div class="section" style="text-align: center; width:100%">
+			<h2 style="margin-bottom: 20px;">Contatti</h2>
+			<p style="padding: 0px 20px;">Siamo sempre disponibili per rispondere a qualsiasi richiesta di informazioni. Non esitate a contattarci attraverso i nostri canali disponibili qui di seguito.</p>
+			<div class="contact-container" style="display: flex; flex-wrap: wrap; justify-content: center; max-width: 1200px; margin-left: auto; margin-right: auto;">
+				<div class="contact-info" style="flex: 1 1 300px; text-align: center; margin-right: 20px;">
+					<img src="images/chiama.jpg" alt="chiama" style="max-width: 100%; height: auto; margin-top: auto;">
+				</div>
+					<div class="contact-buttons" style="flex: 1 1 300px; display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: 20px;">
+					<a href="https://wa.me/393482595855?text=Vorrei%20pi%C3%B9%20informazioni%20sul%20vostro%20servizio" class="btn" style="margin-bottom: 30px; width: 300px;">Mandaci un WhatsApp</a>
+					<a href="tel:+393482595855" class="btn" style="margin-bottom: 30px; width: 300px;">Chiamaci Subito</a>
+					<a href="mailto:tapognaniriccardo@gmail.com?cc=goldenopinion.5star@gmail.com&subject=Info" class="btn" style="margin-bottom: 30px; width: 300px;">Mandaci una Mail</a>
+				</div>
+			</div>
+		</div>
+
+
+        <div class="footer">
+            <p>Mail: <a href="mailto:tapognaniriccardo@gmail.com?cc=goldenopinion.5star@gmail.com&subject=Info" class="contact-link">tapognaniriccardo@gmail.com</a><br>
+			Cell: <a href="tel:+393482595855" class="contact-link">+39 3482595855</a></p>
+            <a href="Privacy.html" class="footer-link">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>
